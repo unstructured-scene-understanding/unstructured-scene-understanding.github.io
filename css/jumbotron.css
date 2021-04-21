@@ -60,6 +60,24 @@ a:hover {
   padding: 0em 2em;
 }
 
+.button {
+  background-color: white; 
+  border: 1px solid black;
+  border-radius: 2px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: black; /* Green */
+  color: white;
+}
+
 .speaker.row {
   padding-bottom: 2em;
 }
