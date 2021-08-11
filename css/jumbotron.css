@@ -127,3 +127,7 @@ a:hover {
     display: none;
   }
 }
+
+.table.schedule td, th {
+  text-align: center;
+}
