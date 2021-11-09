@@ -87,10 +87,18 @@ a:hover {
   max-width: 180px;
 }
 
+.speaker-video {
+  font-size: large;
+}
+
 @media (min-width: 768px) {
   .speaker-text {
     position: absolute;
     top: 45%;
+  }
+
+  .speaker-video {
+    padding-left: 10em;
   }
   
   .speaker-line-top {
@@ -100,7 +108,7 @@ a:hover {
   
   .speaker-line-bottom {
     position: relative;
-    top: 70%;
+    top: 80%;
   }
 }
 
@@ -135,4 +143,8 @@ a:hover {
 
 .schedule span.authors {
   font-size: 14px;
+}
+
+.schedule span.resources {
+  font-size: larger;
 }
